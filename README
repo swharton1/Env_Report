@@ -1,0 +1,13 @@
+In here you will find scripts to download the latest environmental data, such as OMNI solar wind data or F10.7. 
+You will also find scripts to plot the basic data products. 
+
+To update the data: 
+./updata_data.sh 
+
+This will repopulate the data/ directory with F10.7 and OMNI data. If the connection fails, just do it again. 
+
+To update the config file, edit the paths in make_config.py. The python code uses the config file to find the data. Then run it: 
+python make_config.py 
+
+To run the plotting code, type: 
+python plot_data.py 
