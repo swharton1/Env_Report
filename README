@@ -11,3 +11,5 @@ python make_config.py
 
 To run the plotting code, type: 
 python plot_data.py 
+
+The summary plot will be put into the reports/ directory. 
