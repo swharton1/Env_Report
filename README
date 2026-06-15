@@ -4,6 +4,9 @@ You will also find scripts to plot the basic data products.
 To update the data: 
 ./updata_data.sh 
 
+Ensure you have the standard python packages installed listed in requirements.txt either with pip or conda in a virtual environment. 
+pip install -r requirements.txt 
+
 This will repopulate the data/ directory with F10.7 and OMNI data. If the connection fails, just do it again. 
 
 To update the config file, edit the paths in make_config.py. The python code uses the config file to find the data. Then run it: 

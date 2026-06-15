@@ -1,0 +1,7 @@
+numpy
+matplotlib
+configparser
+os
+sys
+pathlib
+datetime
